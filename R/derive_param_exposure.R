@@ -31,7 +31,7 @@
 #'   This can include built-in functions as well as user defined functions,
 #'   for example `mean` or `function(x) mean(x, na.rm = TRUE)`.
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
 #'
 #'   For each group defined by `by_vars` an observation is added to the output
 #'   dataset. Only variables specified in `by_vars` will be populated

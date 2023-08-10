@@ -23,7 +23,7 @@ A list of \code{tte_source()} objects is expected.}
 A named list of datasets is expected. The \code{dataset_name} field of
 \code{tte_source()} refers to the dataset provided in the list.}
 
-\item{by_vars}{By variables
+\item{by_vars}{By Varialbes for Joining
 
 If the parameter is specified, for each by group the observations are
 selected separately.}

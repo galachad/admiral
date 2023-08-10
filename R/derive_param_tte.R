@@ -16,7 +16,7 @@
 #'   A named list of datasets is expected. The `dataset_name` field of
 #'   `tte_source()` refers to the dataset provided in the list.
 #'
-#' @param by_vars By variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   If the parameter is specified, separate time to event parameters are
 #'   derived for each by group.
@@ -467,7 +467,7 @@ derive_param_tte <- function(dataset = NULL,
 #'   A named list of datasets is expected. The `dataset_name` field of
 #'   `tte_source()` refers to the dataset provided in the list.
 #'
-#' @param by_vars By variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   If the parameter is specified, for each by group the observations are
 #'   selected separately.
@@ -656,7 +656,7 @@ filter_date_sources <- function(sources,
 #'   A named list of datasets is expected. Each dataset must contain either all
 #'   by variables or none of the by variables.
 #'
-#' @param by_vars By variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'
 #' @return The list of extended source datasets

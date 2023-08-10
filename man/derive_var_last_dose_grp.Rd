@@ -34,7 +34,8 @@ and source variables from \code{traceability_vars} parameter are expected.}
 For example, it can be used to filter for valid dose.
 Defaults to NULL.}
 
-\item{by_vars}{Variables to join by (created by \code{rlang::exprs}).}
+\item{by_vars}{By Varialbes for Joining
+Variables to join by (created by \code{rlang::exprs}).}
 
 \item{dose_id}{Variables to identify unique dose (created by \code{rlang::exprs}).
 Defaults to empty \code{exprs()}.}

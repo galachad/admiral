@@ -24,7 +24,7 @@ are expected to be present.
 The variable specified by \code{by_vars} and \code{PARAMCD} must be a unique key of
 the input dataset, and to the parameters specified by \code{wbc_code} and \code{diff_code}.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 Permitted Values: list of variables}
 

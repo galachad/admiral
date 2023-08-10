@@ -87,7 +87,7 @@
 #'   Baseline")` is expected. The values must be symbols, character strings,
 #'   numeric values, `NA`, or expressions.
 #'
-#' @param by_vars Variables to uniquely identify a group
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   A list of symbols created using `exprs()` is expected.
 #'

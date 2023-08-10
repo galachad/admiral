@@ -15,7 +15,7 @@
 #'   The variables specified by the `by_vars` and `join_vars` parameter are
 #'   expected.
 #'
-#' @param by_vars By variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   The specified variables are used as by variables for joining the input
 #'   dataset with itself.
@@ -401,7 +401,7 @@ derive_var_joined_exist_flag <- function(dataset,
 #'   The variables specified by the `by_vars` and `join_vars` parameter are
 #'   expected.
 #'
-#' @param by_vars By variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   The specified variables are used as by variables for joining the input
 #'   dataset with itself.

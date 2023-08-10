@@ -16,7 +16,9 @@ derive_summary_records(
 \arguments{
 \item{dataset}{A data frame.}
 
-\item{by_vars}{Variables to consider for generation of groupwise summary
+\item{by_vars}{By Variables for Grouping
+
+Variables to consider for generation of groupwise summary
 records. Providing the names of variables in \code{\link[=exprs]{exprs()}} will create a
 groupwise summary and generate summary records for the specified groups.}
 

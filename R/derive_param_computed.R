@@ -64,7 +64,7 @@
 #'
 #'   *Permitted Values*: An unquoted symbol
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   For each group defined by `by_vars` an observation is added to the output
 #'   dataset. Only variables specified in `by_vars` will be populated
@@ -359,7 +359,7 @@ assert_parameters_argument <- function(parameters, optional = TRUE) {
 #'
 #' @param dataset Input dataset
 #'
-#' @param by_vars By variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #' @param parameters List of parameter codes
 #'

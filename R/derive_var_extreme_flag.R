@@ -31,7 +31,7 @@
 #'   A logical value where if set to `TRUE`, all records are flagged
 #'   and no error or warning is issued if the first or last record is not unique.
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
 #'
 #'   Permitted Values: list of variables
 #'

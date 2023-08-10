@@ -22,7 +22,7 @@ expected,
 \item Either \code{ASTDTM} and \code{AENDTM} or \code{ASTDT} and \code{AENDT} are also expected.
 }}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 For each group defined by \code{by_vars} an observation is added to the output
 dataset. Only variables specified in \code{by_vars} will be populated

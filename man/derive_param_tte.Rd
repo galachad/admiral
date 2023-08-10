@@ -32,7 +32,7 @@ The variables specified for \code{start_date}, and
 A named list of datasets is expected. The \code{dataset_name} field of
 \code{tte_source()} refers to the dataset provided in the list.}
 
-\item{by_vars}{By variables
+\item{by_vars}{By Varialbes for Joining
 
 If the parameter is specified, separate time to event parameters are
 derived for each by group.

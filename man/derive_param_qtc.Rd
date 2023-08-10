@@ -25,7 +25,7 @@ The variable specified by \code{by_vars} and \code{PARAMCD} must be a unique key
 the input dataset after restricting it by the filter condition (\code{filter}
 parameter) and to the parameters specified by \code{qt_code} and \code{rr_code}.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 Only variables specified in \code{by_vars} will be populated
 in the newly created records.

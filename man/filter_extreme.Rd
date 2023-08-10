@@ -12,7 +12,7 @@ filter_extreme(dataset, by_vars = NULL, order, mode, check_type = "warning")
 The variables specified by the \code{order} and the \code{by_vars} parameter are
 expected.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 \emph{Default}: \code{NULL}
 

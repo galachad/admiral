@@ -18,7 +18,8 @@
 #' For example, it can be used to filter for valid dose.
 #' Defaults to NULL.
 #'
-#' @param by_vars Variables to join by (created by `rlang::exprs`).
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
+#' Variables to join by (created by `rlang::exprs`).
 #'
 #' @param dose_id Variables to identify unique dose (created by `rlang::exprs`).
 #' Defaults to empty `exprs()`.

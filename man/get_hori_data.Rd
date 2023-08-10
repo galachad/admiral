@@ -9,7 +9,7 @@ get_hori_data(dataset, by_vars, parameters, analysis_value, filter)
 \arguments{
 \item{dataset}{Input dataset}
 
-\item{by_vars}{By variables}
+\item{by_vars}{By Varialbes for Joining}
 
 \item{parameters}{List of parameter codes
 

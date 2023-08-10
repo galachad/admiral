@@ -29,7 +29,7 @@ The variables specified by \code{by_vars} are expected.}
 The variables specified by the \code{by_vars}, the \code{new_vars}, the \code{join_vars},
 and the \code{order} argument are expected.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Varialbes for Joining
 
 The two datasets are joined by the specified variables. Variables from the
 additional dataset can be renamed by naming the element, i.e., \verb{by_vars = exprs(<name in input dataset> = <name in additional dataset>)}.

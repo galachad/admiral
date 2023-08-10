@@ -27,7 +27,7 @@ A named list of datasets is expected. The \code{dataset_name} field of
 \code{records_source()} refers to the dataset provided in the list. The variables
 specified by the \code{order} and the \code{by_vars} arguments are expected after applying \code{new_vars}.}
 
-\item{by_vars}{By variables
+\item{by_vars}{By Varialbes for Joining
 
 If the argument is specified, for each by group the observations are
 selected separately.}

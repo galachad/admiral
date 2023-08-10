@@ -26,7 +26,7 @@ The variables specified by the \code{by_vars} argument are expected.}
 
 The variables specified by the \code{by_vars} argument are expected.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Varialbes for Joining
 
 The input dataset and the selected observations from the additional dataset
 are merged by the specified by variables. The by variables must be a unique

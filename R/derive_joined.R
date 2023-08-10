@@ -15,7 +15,7 @@
 #'   The variables specified by the `by_vars`, the `new_vars`, the `join_vars`,
 #'   and the `order` argument are expected.
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   The two datasets are joined by the specified variables. Variables from the
 #'   additional dataset can be renamed by naming the element, i.e., `by_vars =

@@ -17,7 +17,7 @@
 #'   the input dataset after restricting it by the filter condition (`filter`
 #'   parameter) and to the parameters specified by `tadm_code` and `padm_code`.
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
 #'
 #'   Only variables specified in `by_vars` will be populated
 #'   in the newly created records.

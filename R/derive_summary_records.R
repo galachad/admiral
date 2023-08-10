@@ -13,7 +13,9 @@
 #'
 #' @param dataset A data frame.
 #'
-#' @param by_vars Variables to consider for generation of groupwise summary
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
+#'
+#'   Variables to consider for generation of groupwise summary
 #'   records. Providing the names of variables in [exprs()] will create a
 #'   groupwise summary and generate summary records for the specified groups.
 #'

@@ -19,7 +19,7 @@ derive_var_extreme_flag(
 
 The variables specified by the \code{by_vars} parameter are expected.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 Permitted Values: list of variables}
 

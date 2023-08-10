@@ -32,7 +32,7 @@ the input dataset after restricting it by the filter condition (\code{filter}
 parameter) and to the parameters specified by \code{sysbp_code}, \code{chol_code}
 and \code{hdl_code}.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 Only variables specified in \code{by_vars} will be populated
 in the newly created records.

@@ -24,7 +24,7 @@ The variables specified by the \code{by_vars} argument are expected.}
 The variables specified by the \code{by_vars} and the \code{analysis_var} arguments
 are expected.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Varialbes for Joining
 
 The values of \code{analysis_var} are summarized by the specified variables. The
 summarized values are merged to the input dataset (\code{dataset}) by the

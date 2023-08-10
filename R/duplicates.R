@@ -36,8 +36,9 @@ get_duplicates_dataset <- function() {
 #' Extract Duplicate Records
 #'
 #' @param dataset A data frame
-#' @param by_vars A list of expressions created using `exprs()` identifying
-#'   groups of records in which to look for duplicates
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
+#'  A list of expressions created using `exprs()` identifying
+#'  groups of records in which to look for duplicates
 #'
 #' @return A `data.frame` of duplicate records within `dataset`
 #'
@@ -79,7 +80,8 @@ extract_duplicate_records <- function(dataset, by_vars) {
 #' Signal Duplicate Records
 #'
 #' @param dataset A data frame
-#' @param by_vars A list of expressions created using `exprs()` identifying
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
+#'   A list of expressions created using `exprs()` identifying
 #'   groups of records in which to look for duplicates
 #' @param msg The condition message
 #' @param cnd_type Type of condition to signal when detecting duplicate records.

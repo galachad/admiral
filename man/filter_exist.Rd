@@ -19,7 +19,7 @@ based on the groups that exist in this dataset after being subset by \code{filte
 The variables specified in the \code{by_vars} and \code{filter_add} parameters are expected
 in this dataset.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Varialbes for Joining
 
 A list of variable names specified within \code{exprs()} is expected.}
 

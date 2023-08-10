@@ -96,7 +96,7 @@ analysis value (\code{AVAL})
 
 \emph{Deprecated}, please use \code{set_values_to} instead.}
 
-\item{by_vars}{Variables to uniquely identify a group
+\item{by_vars}{By Varialbes for Joining
 
 A list of symbols created using \code{exprs()} is expected.}
 

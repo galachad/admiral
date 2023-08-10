@@ -18,7 +18,7 @@ derive_var_obs_number(
 The variables specified by the \code{order} and the \code{by_vars} parameter are
 expected.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 Permitted Values: list of variables}
 

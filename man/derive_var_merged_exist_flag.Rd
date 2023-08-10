@@ -25,7 +25,7 @@ The variables specified by the \code{by_vars} argument are expected.}
 
 The variables specified by the \code{by_vars} argument are expected.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Varialbes for Joining
 
 \emph{Permitted Values}: list of variables}
 

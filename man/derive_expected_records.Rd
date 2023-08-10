@@ -25,7 +25,7 @@ A data frame, the columns from \code{dataset_ref} and specified by the
 Data frame with the expected observations, e.g., all the expected
 combinations of \code{PARAMCD}, \code{PARAM}, \code{AVISIT}, \code{AVISITN}, ...}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 For each group defined by \code{by_vars} those observations from \code{dataset_ref}
 are added to the output dataset which do not have a corresponding observation

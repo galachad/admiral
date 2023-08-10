@@ -15,8 +15,10 @@ derive_var_base(
 \arguments{
 \item{dataset}{The input dataset}
 
-\item{by_vars}{Grouping variables uniquely identifying a set
-of records for which to calculate \code{new_var}}
+\item{by_vars}{By Variables for Grouping
+
+Grouping variables uniquely identifying a set of records
+for which to calculate \code{new_var}}
 
 \item{source_var}{The column from which to extract the baseline value, e.g. \code{AVAL}}
 

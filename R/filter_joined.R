@@ -21,7 +21,7 @@
 #'   The variables specified for `by_vars`, `join_vars`, and `order` are
 #'   expected.
 #'
-#' @param by_vars By variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   The specified variables are used as by variables for joining the input
 #'   dataset with itself.

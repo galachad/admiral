@@ -25,7 +25,7 @@ derive_var_confirmation_flag(
 The variables specified by the \code{by_vars} and \code{join_vars} parameter are
 expected.}
 
-\item{by_vars}{By variables
+\item{by_vars}{By Varialbes for Joining
 
 The specified variables are used as by variables for joining the input
 dataset with itself.}

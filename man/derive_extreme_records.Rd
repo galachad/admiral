@@ -48,7 +48,7 @@ The variables specified for \code{by_vars} are expected. For each
 observation of the specified dataset a new observation is added to the
 input dataset.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Varialbes for Joining
 
 If \code{dataset_ref} is specified, this argument must be specified.
 

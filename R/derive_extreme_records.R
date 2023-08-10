@@ -34,7 +34,7 @@
 #'   The variables specified by the `by_vars` and `order` argument (if
 #'   applicable) are expected.
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   If `dataset_ref` is specified, this argument must be specified.
 #'

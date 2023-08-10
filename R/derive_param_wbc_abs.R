@@ -34,7 +34,7 @@
 #'   Permitted Values: `"percent"`, `"fraction"`
 #'   Default: `fraction`
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
 #'
 #'   Permitted Values: list of variables
 #'

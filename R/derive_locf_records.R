@@ -16,7 +16,7 @@
 #'   `AVISITN`, ... which are expected in the dataset is expected.
 #'
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
 #'
 #'   For each group defined by `by_vars` those observations from `dataset_ref`
 #'   are added to the output dataset which do not have a corresponding observation

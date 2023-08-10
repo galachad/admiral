@@ -22,7 +22,7 @@ filter_joined(
 The variables specified for \code{by_vars}, \code{join_vars}, and \code{order} are
 expected.}
 
-\item{by_vars}{By variables
+\item{by_vars}{By Varialbes for Joining
 
 The specified variables are used as by variables for joining the input
 dataset with itself.}

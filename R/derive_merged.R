@@ -15,7 +15,7 @@
 #'   The variables specified by the `by_vars`, the `new_vars`, and the `order`
 #'   argument are expected.
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   The input dataset and the selected observations from the additional dataset
 #'   are merged by the specified by variables. The by variables must be a unique
@@ -481,7 +481,7 @@ derive_var_merged_cat <- function(dataset,
 #'
 #'   The variables specified by the `by_vars` argument are expected.
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   *Permitted Values*: list of variables
 #'
@@ -873,7 +873,7 @@ get_not_mapped <- function() {
 #'   The specified variable is added to the input dataset (`dataset`) and set to
 #'   the summarized values.
 #'
-#' @param by_vars Grouping variables
+#' @param by_vars `r roxygen_param_by_var(arg = 2)`
 #'
 #'   The values of `analysis_var` are summarized by the specified variables. The
 #'   summarized values are merged to the input dataset (`dataset`) by the

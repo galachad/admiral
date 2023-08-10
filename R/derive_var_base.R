@@ -6,8 +6,10 @@
 #'
 #' @param dataset The input dataset
 #'
-#' @param by_vars Grouping variables uniquely identifying a set
-#'        of records for which to calculate `new_var`
+#' @param by_vars `r roxygen_param_by_var(arg = 1)`
+#'
+#' Grouping variables uniquely identifying a set of records
+#' for which to calculate `new_var`
 #'
 #' @param source_var The column from which to extract the baseline value, e.g. `AVAL`
 #'

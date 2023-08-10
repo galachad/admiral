@@ -27,7 +27,7 @@ The columns specified by the \code{by_vars}, \code{analysis_var}, \code{order},
 Data frame with all the combinations of \code{PARAMCD}, \code{PARAM}, \code{AVISIT},
 \code{AVISITN}, ... which are expected in the dataset is expected.}
 
-\item{by_vars}{Grouping variables
+\item{by_vars}{By Variables for Grouping
 
 For each group defined by \code{by_vars} those observations from \code{dataset_ref}
 are added to the output dataset which do not have a corresponding observation
