@@ -171,6 +171,5 @@ get_summary_records <- function(dataset,
   dataset %>%
     group_by(!!!by_vars) %>%
     filter_if(filter) %>%
-    summarise(!!!set_values_to) %>%
-    ungroup()
+    reframe(!!!set_values_to)
 }

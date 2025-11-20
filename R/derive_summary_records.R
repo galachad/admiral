@@ -262,8 +262,7 @@ derive_summary_records <- function(dataset = NULL,
   summary_records <- dataset_add %>%
     group_by(!!!by_vars) %>%
     filter_if(filter_add) %>%
-    summarise(!!!set_values_to) %>%
-    ungroup()
+    reframe(!!!set_values_to)
 
   df_return <- bind_rows(
     dataset,
